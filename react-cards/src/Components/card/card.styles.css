@@ -1,0 +1,50 @@
+.card-container {
+    transition: all 0.3s;
+    background-color: white;
+    box-shadow: var(--primary-shadow);
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-container:hover {
+    transition: all 0.3s;
+    transform: scale(1.03);
+    border-color: var(--primary-color);
+    animation: box-shadow infinite 2s;
+}
+
+.card-container:hover > div {
+    transition: all 0.3s;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.card-container > img {
+    border-radius: 50%;
+}
+
+.card-container > div {
+    transition: all 0.3s;
+    background-color: lightgrey;
+    padding: 3% 0%;
+}
+
+.card-container > div > p {
+    margin-bottom: 0px;
+    opacity: 0.6;
+}
+
+@keyframes box-shadow {
+    0% {
+        box-shadow: 0px 1px 5px 0.5px var(--primary-color);
+    }
+
+    50% {
+        box-shadow: 0px 3px 30px 2px var(--primary-color);
+    }
+
+    100% {
+        box-shadow: 0px 1px 5px 0.5px var(--primary-color);
+    }
+}

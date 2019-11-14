@@ -1,0 +1,17 @@
+.search-box {
+    transition: all 0.3s;
+    padding: 15px 20px;
+    margin: 2% 0%;
+    width: 30%;
+    min-width: 250px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    box-shadow: var(--primary-shadow);
+    outline: none;
+    font-size: 1.1rem;
+}
+
+.search-box:focus {
+    transition: all 0.3s;
+    border: 1px solid var(--primary-color);
+}

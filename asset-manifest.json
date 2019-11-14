@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ReactCards/static/css/main.02b59776.chunk.css",
+    "main.js": "/ReactCards/static/js/main.7e60769a.chunk.js",
+    "main.js.map": "/ReactCards/static/js/main.7e60769a.chunk.js.map",
+    "runtime-main.js": "/ReactCards/static/js/runtime-main.8f4a2744.js",
+    "runtime-main.js.map": "/ReactCards/static/js/runtime-main.8f4a2744.js.map",
+    "static/js/2.f6046a0a.chunk.js": "/ReactCards/static/js/2.f6046a0a.chunk.js",
+    "static/js/2.f6046a0a.chunk.js.map": "/ReactCards/static/js/2.f6046a0a.chunk.js.map",
+    "index.html": "/ReactCards/index.html",
+    "precache-manifest.09de993746a32f54e9222372e24edb7d.js": "/ReactCards/precache-manifest.09de993746a32f54e9222372e24edb7d.js",
+    "service-worker.js": "/ReactCards/service-worker.js",
+    "static/css/main.02b59776.chunk.css.map": "/ReactCards/static/css/main.02b59776.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f4a2744.js",
+    "static/js/2.f6046a0a.chunk.js",
+    "static/css/main.02b59776.chunk.css",
+    "static/js/main.7e60769a.chunk.js"
+  ]
+}
